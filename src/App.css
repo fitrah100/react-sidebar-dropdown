@@ -1,3 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+.home,
+.services,
+.reports,
+.contact,
+.events,
+.support,
+.register,
+.chart{
+
+  display: flex;
+  width: auto;
+  margin-left: 30vw;
+  font-size: 2rem;
+  text-align: center;
+  
+}
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +59,4 @@
     transform: rotate(360deg);
   }
 }
+*/
