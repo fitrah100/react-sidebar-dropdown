@@ -102,8 +102,9 @@ function Register(){
                 <div>
                      <AddUser onAdd={onAdd} />
                 </div>
+                <br/>
                 <div>
-                    { users.map((user)=>(
+                    { users.map((user,ix)=>(
                             <User 
                                 id={user.id}
                                 key={user.id}

@@ -14,10 +14,11 @@
     border-radius: 5px;
     font-size: 2vh;
     font-weight: bold;
-    border:1px solid rgba(0, 0, 0, 0.5);
+    border:2px solid rgba(0, 0, 0, 0.5);
   }
 
-  form button{
+  form button, 
+  .user button{
     margin-top: 4vh;
     font-weight: bold !important;
     border-color: orange;
@@ -67,6 +68,15 @@
     padding-left: 10vw;
  
   }
-  .register .userlist{
-    width: 70vw !important;
+  .user{
+    width: 50vw;
+    font-size: 12px !important;
+    text-align: left;
+    font-family: inherit;
+  }
+
+  .user button{
+    width: 10vw;
+    margin: 1vw;
+    border-radius: 20px;
   }
