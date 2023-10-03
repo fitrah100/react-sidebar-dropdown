@@ -67,6 +67,10 @@ function Register(){
         })
         .then((data)=>{
             const updatedUsers = users.map((user)=>{
+                
+            console.log("here::"+user.id);
+            
+            console.log("here::"+user.email);
                 if(user.id ===id){
                     user.name = name;
                     user.email = email;
@@ -104,10 +108,10 @@ function Register(){
                 </div>
                 <br/>
                 <div>
-                    { users.map((user,ix)=>(
+                    { users.map((user, index)=>(
                             <User 
                                 id={user.id}
-                                key={user.id}
+                                key={index}
                                 name={user.name}
                                 email={user.email}
                                 onEdit ={onEdit}

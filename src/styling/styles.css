@@ -78,5 +78,17 @@
   .user button{
     width: 10vw;
     margin: 1vw;
-    border-radius: 20px;
+    border-radius: 18px;
+  }
+  .user span{
+    display: inline-table;
+    border-spacing: 5px;
+  }
+
+  form button:hover{
+    font-weight: bolder;
+    font-size: 20px;
+    border-color: white;
+    box-shadow: inset 0px -2px 1px rgba(0,0,0,0.8),
+    inset 0 2px 1px orange;
   }

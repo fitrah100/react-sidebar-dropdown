@@ -28,7 +28,7 @@ export const AddUser = ({onAdd}) =>{
 
         <form onSubmit={handleOnSubmit} >
             <div className="header">Add User</div>
-            <input placeholder="Name" name="name" style={{ borderColor: isValidName?'orange':'red' }} />
+            <input placeholder="Name" name="name" style={{ borderColor: isValidName?'orange':'red'  }} />
             <input placeholder="Email" name="email" style={{ borderColor: isValidEmail?'orange':'red' }}   />
             <button onSubmit={handleOnSubmit}>Add</button>
         </form> 
