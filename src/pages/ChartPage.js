@@ -23,7 +23,6 @@ export const Options={
         },
         fontName: 'Roboto',
         fontSize: 20
-
 };
 
 const ChartPage = () =>{

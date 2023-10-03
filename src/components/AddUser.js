@@ -10,7 +10,7 @@ export const AddUser = ({onAdd}) =>{
 
     return(
         <form onSubmit={handleOnSubmit} >
-            <h3>Add User</h3>
+            <div className="header">Add User</div>
             <input placeholder="Name" name="name" />
             <input placeholder="Email" name="email" />
             <button onSubmit={handleOnSubmit}>Add</button>
